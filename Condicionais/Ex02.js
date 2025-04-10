@@ -1,6 +1,8 @@
 //Verificar se o usuário pode tirar carteira de motorista
 
-let Idade = 17;
+var prompt = require('prompt-sync')();
+
+let Idade = prompt("Ola, Digite sua idade?\n")
 
 if (Idade >= 18) 
 {
