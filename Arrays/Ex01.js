@@ -6,3 +6,6 @@
 let Frutas = ["Banana","Uva","Macarrao","Leite"]
 
 console.log("Sua lista do mecado eh:", Frutas);
+
+
+
