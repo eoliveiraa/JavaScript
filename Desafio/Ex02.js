@@ -7,7 +7,10 @@ let Objetos = [
     {Produto:"Copo", preço: 6.90}
 ];
 
-Objetos.forEach(Objetos => {
-    console.log(Objetos.Produto +":R$"+ Objetos.preço)
-}); 
+let objetoNomes = Objetos.map(objeto => objeto.Produto);
+let objetoPrecos = Objetos.map(objeto => objeto.preço);
 
+Objetos.map(Objetos => {
+    console.log(`${Objetos.Produto} : R$ ${Objetos.preço}`);
+  });
+    
